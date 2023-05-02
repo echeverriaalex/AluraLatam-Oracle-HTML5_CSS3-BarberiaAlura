@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barberia Alura</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <!--
+            Beneficios de usar fuentes externas:
+            Estandarizar nuestro contenido en todos los navegadores
+            Dejar el sitio más bonito, fuera de lo común
+            Tener más alternativas de fuentes
+
+            Usar fuentes externas es una alternativa muy funcional para 
+            que tengamos más opciones, que hacen que nuestro sitio web 
+            sea más bonito y exclusivo y además estandarizado en todos
+            los navegadores.
+        -->
+
+
+        <!-- Esto es una de las formas de aplicar css
+            <style>
+                p{
+                    text-align: center;
+                }
+            </style>
+        -->
+    </head>
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1> 
+                <nav>                
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       
+        <img class="banner" src="banner/banner.jpg">
+        <main>        
+            <section class="principal"> 
+                <!--
+                    Debemos usar la etiqueta <section> cuando el bloque es semántico
+                    Para un bloque donde el contenido tiene el mismo significado, 
+                    el mismo sentido, usamos una <section>
+                -->
+                <h2 class="titulo-principal"> Sobre la Barberia Alura</h2>
+                <img class="utensillios" src="imagenes/utensilios.jpg" alt="utencilios de un barbero">
+
+                <p>
+                    Ubicada en el corazon de la ciudad, la <strong>Barberia Alura</strong> trae 
+                    para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la
+                    Barberia Alura ya es destaque en la ciudad y conquista nuevos clientes
+                    diariamente.
+                </p>
+
+                <p id="mision">
+                    <em>Nuestra mision es: <strong>"Proporcionar
+                    autoestima y calidad de vida a nuestros clientes</strong>.</em>            
+                </p>
+
+                <p> 
+                    Ofrecemos profesionales experimentados que estan constantemente observando
+                    los cambios y movimientos en el mundo de la moda, para asi ofrecer a nuestros
+                    clientes las ultimas tendencias. El atendimiento posee un padron de excelencia y
+                    agilidad, garantizando calidad y satisfaccion de nuestros clientes.
+                </p>
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Nuestra Ubicacion</h3>
+                <p>Nuestro establecimiento esta ubicado en el corazon de la ciudad</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.717591252584!2d-46.643763297543885!3d-23.588928397093962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sar!4v1682982682434!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!--
+                    Para insertar diferentes elementos externos como ser imágenes, 
+                    videos, mapas o hasta una página de facebook o twitter.
+                    Exactamente a través de la etiqueta iframe podemos insertar 
+                    diferentes tipos de elementos externos en nuestra página. Sean 
+                    estos mapas, vídeos, imágenes u otras páginas web o páginas de 
+                    redes sociales.
+                -->
+            </section>
+
+            <section class="diferenciales">
+                <h3 class="titulo-principal">Diferenciales</h3>
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
+                        <li class="items" >Atencion personalizada a los clientes</li>
+                        <li class="items">Espacio diferenciado</li>
+                        <li class="items">Localizacion</li>
+                        <li class="items">Profesionales calificados</li>
+                        <li class="items">Puntualidad</li>
+                        <li class="items">Limpieza</li>
+                    </ul><img class="imagen-diferenciales" src="diferenciales/diferenciales.jpg">
+                    <!-- NO DEBE HABER SALTO DE LINEA NI ESPACIO ENTRE UL Y IMG, ESTO ES PARA QUE FUNCIONES INLINE-BLOCK -->
+                </div>
+            </section>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <!--
+                ¿Cuáles de las siguientes sentencias son verdaderas en relación a la incorporación de vídeos externos en nuestra página?
+
+                1 Solo pueden ser insertados vídeos de Youtube
+                2 Se puede configurar desde que tiempo específico del vídeo 
+                    queremos que se empiece a reproducir
+                3 Se usa la etiqueta iframe para incrustar vídeos
+
+                Solo 2 y 3 son verdaderas
+                Es posible configurar el tiempo donde queremos que inicien los 
+                videos que insertamos en nuestras páginas. Por otro lado, a través 
+                de iframe es posible insertar varios tipos de elementos externos, 
+                entre ellos los videos son una alternativa viable.
+            -->
+
+
+        </main>
+
+        <footer>
+            <img src="imagenes/logo-blanco.png" alt="Logo de la Barberia Alura">
+            <p class="copyright">&copy; Copyright Barberia Alura - 2023</p>
+        </footer>
+    </body>
+</html>
