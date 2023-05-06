@@ -48,7 +48,8 @@
         </header>
        
         <img class="banner" src="banner/banner.jpg">
-        <main>        
+        <main>
+            <!-- <p>Parrafo ejemplo</p> -->
             <section class="principal"> 
                 <!--
                     Debemos usar la etiqueta <section> cuando el bloque es semántico
@@ -81,7 +82,9 @@
             <section class="mapa">
                 <h3 class="titulo-principal">Nuestra Ubicacion</h3>
                 <p>Nuestro establecimiento esta ubicado en el corazon de la ciudad</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.717591252584!2d-46.643763297543885!3d-23.588928397093962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sar!4v1682982682434!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.717591252584!2d-46.643763297543885!3d-23.588928397093962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sar!4v1682982682434!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <!--
                     Para insertar diferentes elementos externos como ser imágenes, 
                     videos, mapas o hasta una página de facebook o twitter.
@@ -105,27 +108,24 @@
                     </ul><img class="imagen-diferenciales" src="diferenciales/diferenciales.jpg">
                     <!-- NO DEBE HABER SALTO DE LINEA NI ESPACIO ENTRE UL Y IMG, ESTO ES PARA QUE FUNCIONES INLINE-BLOCK -->
                 </div>
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <!--
+                    ¿Cuáles de las siguientes sentencias son verdaderas en relación a la incorporación de vídeos externos en nuestra página?
+
+                    1 Solo pueden ser insertados vídeos de Youtube
+                    2 Se puede configurar desde que tiempo específico del vídeo 
+                        queremos que se empiece a reproducir
+                    3 Se usa la etiqueta iframe para incrustar vídeos
+
+                    Solo 2 y 3 son verdaderas
+                    Es posible configurar el tiempo donde queremos que inicien los 
+                    videos que insertamos en nuestras páginas. Por otro lado, a través 
+                    de iframe es posible insertar varios tipos de elementos externos, 
+                    entre ellos los videos son una alternativa viable.
+                -->
             </section>
-
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <!--
-                ¿Cuáles de las siguientes sentencias son verdaderas en relación a la incorporación de vídeos externos en nuestra página?
-
-                1 Solo pueden ser insertados vídeos de Youtube
-                2 Se puede configurar desde que tiempo específico del vídeo 
-                    queremos que se empiece a reproducir
-                3 Se usa la etiqueta iframe para incrustar vídeos
-
-                Solo 2 y 3 son verdaderas
-                Es posible configurar el tiempo donde queremos que inicien los 
-                videos que insertamos en nuestras páginas. Por otro lado, a través 
-                de iframe es posible insertar varios tipos de elementos externos, 
-                entre ellos los videos son una alternativa viable.
-            -->
-
-
         </main>
 
         <footer>
