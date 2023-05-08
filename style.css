@@ -102,19 +102,34 @@ footer{
 
 form{
     margin: 40px 0;
+
+    /* modificaciones mias*/
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
 }
 
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+
+    width: 100%;
 }
 
 .input-padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
+    
+    width: 100%;
+}
+
+select{
     width: 50%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .checkbox{
@@ -145,8 +160,13 @@ form label, form legend{
  }
 
  table{
-    margin: 40px 40px;
- }
+    width: 60%;
+        
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
 
  thead{
     background: #555555;
@@ -160,10 +180,6 @@ form label, form legend{
  }
 
  /* CSS para el home */
-
-
-
-
 .principal p:not(#mision){ /* aplico orange a todos los parrafos menos al que tenga id mision */
     /*background: orange; */
 }
@@ -392,7 +408,41 @@ y no tan genérico, para que no tengas que necesitar combinar clases.
 
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
+        margin: 10px 0px;
     }
+
+    .productos{
+        width: auto;
+        display: block;
+    }
+
+    .productos li{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    form{
+        width: 80%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+
+    form .input-padron{
+        width: 90%;
+    }
+
+    .enviar{
+        width: 100%;
+    }
+
+    table{
+        width: 80%;
+        
+        
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
 }
 
 /*
