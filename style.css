@@ -387,7 +387,7 @@ y no tan genérico, para que no tengas que necesitar combinar clases.
     aplico responsive (basicamente) 
     media queries
 */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 940px){
     /*
     body{
         background: red;
@@ -406,9 +406,29 @@ y no tan genérico, para que no tengas que necesitar combinar clases.
         width: auto;
     }
 
+    .principal, .mapa p{
+        padding: 10px 10px;
+    }
+
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
         margin: 10px 0px;
+    }
+
+    .contenido-diferenciales ul{
+        padding: 10px 10px;
+        display: block;
+        width: 50%;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .contenido-diferenciales{
+        padding: 10px 10px;
+    }
+
+    .video{
+        padding: 0px 10px;
     }
 
     .productos{
